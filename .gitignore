@@ -1,2 +1,7 @@
 # object files (compiled)
 *.o
+
+# our exe
+*.exe
+sim
+test
