@@ -2,7 +2,7 @@
 #include "renderer.h"
 #include "physics.h"
 
-int main(int argc, char *argv[])
+int main()
 {
     gui_init();
 

@@ -64,8 +64,8 @@ void SolarSystem::step_physics(double dt, int substeps)
         }
     }
 
-    for (auto &b : bodies)
-        b.record_trail();
+    for (size_t i = 0; i < bodies.size(); ++i)
+        bodies[i].record_trail();
 }
 
 void SolarSystem::render()

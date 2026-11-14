@@ -1,5 +1,4 @@
 #include "physics.h"
-#include <math.h>
 
 int factorial(int n)
 {
